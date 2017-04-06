@@ -1,0 +1,47 @@
+body {
+	background: black;
+}
+
+.container {
+	width: 1024px;
+	margin: auto;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+.header {
+	width: 100%;
+	text-align: center;
+}
+
+td {
+	width: 25%;
+}
+
+.image_main {
+	text-align: center; 
+}
+
+.header a {
+	color: yellow;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: red;
+}
+
+p {
+	color: white;
+}
+
+.image_two img {
+	-object-fit: fill;
+	width: 400px;
+	height: 300px;
+}
