@@ -48,30 +48,32 @@ p {
 	height: 300px;
 }
 
+tr {
+	border: 1px solid white;
+	border-bottom: 1px solid #303030;
+}
+
 .player {
 	margin: 30px 0 30px 0;
 	width: 650px;
 	color: white;
-	border: 2px solid green;
-	border-collapse: collapse;
 	float: right;
+	border: 1px solid white;
+	border-collapse: separate; border-spacing: 10px 10px;
 }
 
 .name {
-	width: 100px;
-	border: 2px solid green;
+	width: 150px;
 	font-size: 20px;
 }
 
 .role {
-	width: 100px;
-	border: 2px solid green;
+	width: 150px;
 	font-size: 20px;
 }
 
 .info {
-	width: 450px;
-	border: 2px solid green;
+	width: 350px;
 	font-size: 20px;
 }
 
@@ -85,6 +87,23 @@ p {
 	background-attachment: local;
 }
 
+.first_string {
+	color: green;
+	border-bottom: 1px solid green;
+}
+
+.spisok {
+	list-style-type: none;
+	font-size: 25px;
+	display: inline;
+}
+
+li {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+}
+
 p bbb2 {
 	color: black;
 	font-family: black;
@@ -94,36 +113,16 @@ ul {
 	color: white;
 }
 
-.plut {
-	background-color: yellow;
-}
-
-.klirik {
-	background-color: white;
-}
-
-.mag {
-	background-color: blue;
-}
-
-.ohotnik {
-	background-color: green;
-}
-
-.chk {
-	background-color: purple;
-}
-
-.paladin {
-	background-color: pink;
-}
-
-.bers {
-	background-color: red;
-}
-
 .tank {
-	background-color: brown;
+	color: #B46D03;
+}
+
+.heal {
+	color: white;
+}
+
+.damage {
+	color: #992C2C;
 }
 
 .ustav {
