@@ -40,10 +40,50 @@ a:hover {
 
 /*****index*****/
 
+/*старый образец*/
 .main_image {
 	width: 480px;
 	float: left;
 	padding: 5px 16px 5px 16px;
+}
+
+.main_main_images {
+	width: 1024px;
+	margin: auto;
+}
+
+.main_main_images1 {
+	width: 500px;
+	float: left;
+}
+
+.main_image1 {
+	width: 500px;
+	float: left;
+	padding: 5px 20px 15px 70px;
+}
+
+.main_main_images2 {
+	width: 400px;
+	float: left;
+}
+
+.main_image2 {
+	margin-left: -50px;
+	width: 550px;
+	height: 600px;
+	float: left;
+	padding: 50px 20px 15px 50px;
+}
+
+.main_main_images3 {
+	width: 400px;
+	float: left;
+}
+
+.main_image3 {
+	margin-top: -100px;
+	width: 650px;
 }
 
 /*****charter*****/
@@ -82,6 +122,20 @@ div#charter_background_next {
 	color: #000000;
 }
 
+.time_farming_dragon_1 {
+	float: left;
+	margin: 40px 0 0 140px;
+	font-size: 40px;
+	color: #000000;
+}
+
+.time_farming_dragon_2 {
+	float: left;
+	margin: 0 0 0 140px;
+	font-size: 40px;
+	color: #000000;
+}
+
 .everyday_farming {
 	float: left;
 	margin: 15px 0 0 50px;
@@ -109,6 +163,7 @@ div#charter_background_next {
 	color: #0D9206;
 	font-family: 'Comic Sans MS';
 	text-align: justify;
+	text-indent: 25px
 }
 
 /*****players*****/
@@ -141,4 +196,14 @@ table {
 th {
 	color: #008000;
 	text-align: left;
+}
+
+/*****info*****/
+
+#title {
+	line-height: 0; /* Изменяем межстрочное расстояние */
+}
+
+#title img {
+	border: none; /* Убираем рамку вокруг изображения */
 }
