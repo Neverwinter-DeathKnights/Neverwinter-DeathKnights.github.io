@@ -40,13 +40,6 @@ a:hover {
 
 /*****index*****/
 
-/*старый образец*/
-.main_image {
-	width: 480px;
-	float: left;
-	padding: 5px 16px 5px 16px;
-}
-
 .main_main_images {
 	width: 1024px;
 	margin: auto;
@@ -200,10 +193,28 @@ th {
 
 /*****info*****/
 
-#title {
-	line-height: 0; /* Изменяем межстрочное расстояние */
+.info_sidebar {
+	width: 224px;
+	float: left;
 }
 
-#title img {
-	border: none; /* Убираем рамку вокруг изображения */
+.info_list li, .info_list a {
+	color: #D48E0B;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.info_list a:hover, .info_list li:hover {
+	color: #ff0000;
+}
+
+.information {
+	width: 800px;
+	float: left;
+}
+
+.table_stones {
+	width: 800px;
+	font-size: 18px;
+	border: 2px solid green;
 }
